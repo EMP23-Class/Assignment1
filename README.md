@@ -20,6 +20,8 @@ You can test your implementation by following these steps:
    you start up Julia in this way. 
 4. In `pkg` mode, simply type `test` to run the tests. Revise your code until
    tests pass. 
+5. To submit your assignment, simply commit your code back to github. The
+   autograder will automatically run.
 
 # Julia resources
 
