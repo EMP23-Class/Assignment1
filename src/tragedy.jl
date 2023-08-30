@@ -2,7 +2,9 @@ using JuMP
 using HiGHS
 
 """
-Using JuMP, return the optimal contribution for the tragedy of the commons game, given
+Using JuMP (see the JuMP documentation/quick start/examples linked in the readme), 
+set up a mathematical program representing the tragedy of the commons game
+and solve for the optimal contribution, given
 the contributions of all other players, the "pot multiplier", and the initial allocation
 provided to you, which is also the max contribution allowed.
 
